@@ -26,4 +26,12 @@ function akanName(){
     var female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
+    if (gender=man){
+        document.getElementById("return").innerHTML="Your Akan name is " + male[day] + "."
+    }
+    else if (gender=woman){
+        document.getElementById("return").innerHTML="Your Akan name is " + female[day] + "."
+    };
+};
+
 };
