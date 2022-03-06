@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(https://media.gettyimages.com/photos/african-sunset-picture-id488997681?b=1&k=6&m=488997681&w=0&h=MH5TfOdLX3gf1Oe3h_mnHybpz0-SO0ucUFALAD_lXAY=);
+    background-image: url(./images/africa.jpg);
     background-size: cover;
 }
 .row1{
@@ -30,7 +30,6 @@ body{
     justify-content: center;
     width: 200px;
     max-width: 100%;
-    
 }
 .col-6 h2{
     font-size: 30px;
