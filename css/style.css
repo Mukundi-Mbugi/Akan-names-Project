@@ -109,12 +109,14 @@
     font-size: 20px;
     border: 2px solid #90999c;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 #return{
     color: red;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     margin-top: 10px;
+    padding: 2px;
     background-color: white;
 }
 #p2{
