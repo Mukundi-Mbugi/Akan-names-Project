@@ -47,3 +47,14 @@
     border: none;
     text-align: justify;
     padding: 30px;
+}
+.col-4{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
