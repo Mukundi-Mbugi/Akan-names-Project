@@ -110,3 +110,12 @@
     border: 2px solid #03b1e6;
     border-radius: 4px;
 }
+#return{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#p2{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
