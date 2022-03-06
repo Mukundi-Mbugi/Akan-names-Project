@@ -119,3 +119,16 @@
 #p2{
     color: rgb(0, 0, 0);
     background-color: antiquewhite;
+}
+#alert1{
+    margin-top: 2px;
+    color: red;
+}
+#alert2{
+    margin-top: 2px;
+    color: red;
+}
+#alert3{
+    margin-top: 2px;
+    color: red;
+}
