@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .row1{
-    background-image: url(../Akan-names-Project/images/africanfolktales.jpg);
+    background-image: url(../images/africanfolktales.jpg);
     background-size: auto;
     background-color: #9b59b6;
     font-family: "Roboto";
@@ -15,11 +15,14 @@
 }
 .row1 h1{
     color: rgb(255, 251, 13);
-    text-align: center;
     font-size: 60px;
     font-style: inherit;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    padding-top: 50px;
 }
-.col-6{
+.column1{
     /* background-color: #ffffff; */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -48,7 +51,7 @@
     text-align: justify;
     padding: 30px;
 }
-.col-4{
+.column2{
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -66,9 +69,8 @@
 .header h2{
     text-align: center;
     letter-spacing: 1px;
-}
-.form{
-    padding: 20px 40px;
+    font-size: 25px;
+    color: rgb(255, 8, 0);
 }
 .form-control{
     margin-bottom: 10px;
@@ -80,17 +82,14 @@
     margin-bottom: 5px;
 }
 .form-control input{
-    border: 2px solid #f0f0f0;
+    border: 2px solid #a4b2b8;
     border-radius: 4px;
     display: block;
     font-family: inherit;
+    background-color: rgb(238, 236, 235);
     font-size: 14px;
     padding: 10px;
     width: 100%;
-}
-.form-control small{
-    position: absolute;
-    visibility: hidden
 }
 .form button {
     background-color: #029ece;
@@ -103,11 +102,12 @@
     font-family: inherit;
     padding: 10px;
     width: 100%;
+    position: ;
 }#gender{
     padding: 10px;
     width: 100%;
     font-size: 20px;
-    border: 2px solid #03b1e6;
+    border: 2px solid #90999c;
     border-radius: 4px;
 }
 #return{
@@ -115,6 +115,7 @@
     text-align: center;
     font-size: 15px;
     margin-top: 10px;
+    background-color: white;
 }
 #p2{
     color: rgb(0, 0, 0);
