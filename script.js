@@ -12,5 +12,8 @@ function akanName(){
     if (MM<1||MM>12){
         document.getElementById("alert2").innerHTML="Error! Enter a valid Month.";
     };
+    if (year<1||year>2022){
+        document.getElementById("alert3").innerHTML="Error! Enter a valid year.";
+    };
 
 };
