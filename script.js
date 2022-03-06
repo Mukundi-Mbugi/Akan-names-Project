@@ -16,9 +16,10 @@ function akanName(){
         document.getElementById("alert3").innerHTML="Error! Enter a valid year.";
     };
 
+    var gender = document.getElementById("gender").value;
     var man = document.getElementById("man").value;
     var woman = document.getElementById("woman").value;
-    // console.log(female);
+    console.log(female);
 
     let day  = Math.floor(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
     console.log(day);
@@ -27,11 +28,19 @@ function akanName(){
     var female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-    if (gender=man){
-        document.getElementById("return").innerHTML="Your Akan name is " + male[day] + "."
+    // if (gender=man){
+    //     document.getElementById("return").innerHTML="Your Akan name is " + male[day] + "."
+    // };
+    // if (gender=woman){
+    //     document.getElementById("return").innerHTML="Your Akan name is " + female[day] + "."
+    // };
+
+    if (gender ==="male"){
+        sex = male;
+    }
+     else{
+        sex = female;
     };
-    if (gender=woman){
-        document.getElementById("return").innerHTML="Your Akan name is " + female[day] + "."
-    };
+    document.getElementById("return").innerHTML="Your Akan name is " + sex[day] + "."
 };
 
