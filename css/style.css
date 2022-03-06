@@ -58,3 +58,12 @@
     max-width: 100%;
     margin-bottom: 20px;
 }
+.header{
+    background-color: antiquewhite;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 10px 0px;
+}
+.header h2{
+    text-align: center;
+    letter-spacing: 1px;
+}
