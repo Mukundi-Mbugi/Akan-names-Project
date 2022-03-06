@@ -16,4 +16,8 @@ function akanName(){
         document.getElementById("alert3").innerHTML="Error! Enter a valid year.";
     };
 
+    var man = document.getElementById("man").value;
+    var woman = document.getElementById("woman").value;
+    // console.log(female);
+
 };
