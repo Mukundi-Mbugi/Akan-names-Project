@@ -3,3 +3,13 @@
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
 }
+.row1{
+    background-image: url(../Akan-names-Project/images/africanfolktales.jpg);
+    background-size: auto;
+    background-color: #9b59b6;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
