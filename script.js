@@ -8,5 +8,9 @@ function akanName(){
 
     if(DD<1||DD>31){
         document.getElementById("alert1").innerHTML="Error! Enter a valid date.";
-        };
+    };
+    if (MM<1||MM>12){
+        document.getElementById("alert2").innerHTML="Error! Enter a valid Month.";
+    };
+
 };
