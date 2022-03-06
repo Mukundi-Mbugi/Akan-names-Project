@@ -3,10 +3,11 @@
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
 }
-.row1{
+body{
     background-image: url(../images/africanfolktales.jpg);
-    background-size: auto;
-    background-color: #9b59b6;
+    background-size: cover;
+}
+.row1{
     font-family: "Roboto";
     display: flex;
     align-items: center;
