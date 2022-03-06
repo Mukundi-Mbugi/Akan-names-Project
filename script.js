@@ -29,8 +29,8 @@ function akanName(){
 
     if (gender=man){
         document.getElementById("return").innerHTML="Your Akan name is " + male[day] + "."
-    }
-    else if (gender=woman){
+    };
+    if (gender=woman){
         document.getElementById("return").innerHTML="Your Akan name is " + female[day] + "."
     };
 };

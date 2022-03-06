@@ -19,8 +19,9 @@
     font-style: inherit;
     display: flex;
     flex-direction: column;
-    margin-left: 500px;
-    padding-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .column1{
     /* background-color: #ffffff; */
@@ -115,9 +116,9 @@
     color: red;
     text-align: center;
     font-size: 25px;
-    margin-top: 10px;
-    padding: 2px;
-    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background-color: antiquewhite;
 }
 #p2{
     color: rgb(0, 0, 0);
