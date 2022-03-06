@@ -32,6 +32,8 @@ Friday: Afua
 
 Saturday: Ama
 The application collects the user's date of birth and gender and uses them to assign them an Akan name depending on the day they were born.
+## Web Link
+https://mukundi-mbugi.github.io/Akan-names-Project/
 ## Setup/Installation Requirements
 If you want to contribute to the development of this application, follow the following steps:
 1. Go to my Mukundi-Mbugi git account and fork the Akan-names-project repository.
