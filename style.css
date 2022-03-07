@@ -100,7 +100,21 @@ body{
     font-family: inherit;
     padding: 10px;
     width: 100%;
-}#gender{
+}
+#clear{
+    border: 2px solid #0ab6ff;
+    border-radius: 4px;
+    color: #000102;
+    display: block;
+    font-family: inherit;
+    background-color: rgb(238, 236, 235);
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+#gender{
     padding: 10px;
     width: 100%;
     font-size: 20px;
